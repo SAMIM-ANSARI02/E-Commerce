@@ -4,64 +4,64 @@ const Homeproduct=[
         title:"abc",
         cat:'powerbank',
         price:'$562',
-        img:'./img/mobile5.jpg'
+        img:'./img/powerbank.jpg'
 
     },
     {
         id:1,
         title:"abc",
-        cat:'powerbank',
+        cat:'purse',
         price:'$562',
-        img:'./img/mobile5.jpg'
+        img:'./img/purse.jpg'
 
     },
     {
         id:1,
         title:"abc",
-        cat:'powerbank',
+        cat:'Ear ring',
         price:'$562',
-        img:'./img/mobile5.jpg'
+        img:'./img/earring.jpg'
 
     },
     {
         id:1,
         title:"abc",
-        cat:'powerbank',
+        cat:'makeup kit',
         price:'$562',
-        img:'./img/mobile5.jpg'
+        img:'./img/makeupkite.jpg'
 
     },
     {
         id:1,
         title:"abc",
-        cat:'powerbank',
+        cat:'charger',
         price:'$562',
-        img:'./img/mobile5.jpg'
+        img:'./img/charger.jpg'
 
     },
     {
         id:1,
         title:"abc",
-        cat:'powerbank',
+        cat:'dress',
         price:'$562',
-        img:'./img/mobile5.jpg'
+        img:'./img/dress.jpg'
 
     }
     ,
     {
         id:1,
         title:"abc",
-        cat:'powerbank',
+        cat:'mobile cover',
         price:'$562',
-        img:'./img/mobile5.jpg'
+        img:'./img/cover.webp'
 
     },
     {
         id:1,
         title:"abc",
-        cat:'powerbank',
+        cat:'necklace',
         price:'$562',
-        img:'./img/mobile5.jpg'
+        img:'./img/necklace.jpg'
 
     }
 ]

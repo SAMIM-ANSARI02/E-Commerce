@@ -65,14 +65,7 @@ const Home = () => {
               <p>40 products</p>
             </div>
           </div>
-          <div className="box">
-            <div className="img_box_p">
-              <img src="./img/mixture.jpg" alt="mobile" />
-            </div>
-            <div className="detail">
-              <p>30 products</p>
-            </div>
-          </div>
+          
           <div className="box">
             <div className="img_box_p">
               <img src="./img/smartwatch.jpg" alt="mobile" />
@@ -123,14 +116,15 @@ const Home = () => {
  
               return(
                 <div className="box-prod" key={currEl.id}>
-                    <div className="img">
+                    <div className="img-box">
                        <img src={currEl.img} alt={currEl.title} />
+                       <div className="icon-prod">
+                          <li><BsCart4/></li>
+                          <li><BsEyeFill/></li>
+                          <li><AiOutlineHeart/></li>
+                       </div>
                     </div>
-                    <div className="icon-prod">
-                        <BsCart4/>
-                        <BsEyeFill/>
-                        <AiOutlineHeart/>
-                    </div>
+                    
                     <div className="detail-prod">
                       <p>{currEl.cat}</p>
                       <h3>{currEl.title}</h3>
@@ -143,6 +137,21 @@ const Home = () => {
           }
            
         </div>
+    </div>
+    <div className="banner">
+       <div className="container">
+          <div className="detail">
+            <h4>LATEST TECHNOLGY ADDED</h4>
+            <h3>new 210-im mobile heart beat sensor 2023</h3>
+            <p>$-985</p>
+            <Link to='./product' className='link'>Shop now <p><BsFillArrowRightCircleFill/></p></Link>
+        
+          </div>
+        
+          <div className="img-box">
+            <img src="./img/product.webp" alt="mobile latest" />
+          </div>
+       </div>
     </div>
     </>
    
