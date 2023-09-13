@@ -2,6 +2,7 @@ import React from 'react'
 import {Nav} from './nav'
 import {BrowserRouter} from 'react-router-dom'
 import Rout from './Rout'
+import Footer from './Footer'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
     <BrowserRouter>
          <Nav/>
          <Rout/>
+         <Footer/>
     </BrowserRouter>
      
     </>

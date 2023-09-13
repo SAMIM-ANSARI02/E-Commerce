@@ -1,4 +1,4 @@
-const Homeproduct=[
+const productDetails=[
     {
         id:1,
         title:"abc",
@@ -65,5 +65,4 @@ const Homeproduct=[
 
     }
 ]
-
-export default Homeproduct;
+export default productDetails 
